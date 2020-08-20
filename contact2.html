@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
     
 </head>
 <body>
@@ -26,7 +30,38 @@
         </div>
       </nav>
 
-
+      <div class="contact-box">
+        <div class="row">
+          <form name="contact2" method="POST" data-netlify="true" class="col s12">
+            <input type="hidden" name="form-name" value="contact" />
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_account_circle" type="text" class="validate">
+                <label for="icon_account_circle">Nombre</label>
+              </div>
+              <div class="input-field col s12">
+                  <i class="material-icons prefix">local_phone</i>
+                  <input id="icon_local_phone" type="tel" class="validate">
+                  <label for="icon_local_phone">Telefono</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="icon_email" type="text" class="validate">
+                <label for="icon_email">Email</label>
+              </div>
+                  <div class="input-field col s12">
+                      <i class="material-icons prefix">mode_edit</i>
+                      <textarea id="icon_message" class="materialize-textarea"></textarea>
+                      <label for="icon_message">Mensaje</label>
+                  </div>
+                  <button class="btn waves-effect waves-light" type="summit" name="action">Enviar
+                    <i class="material-icons right">send</i>
+                  </button>
+            </div>
+          </form>
+          </div>
+          </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
